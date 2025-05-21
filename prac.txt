@@ -1,0 +1,8 @@
+io.on("connection", function(x){
+  console.log("connected")
+})
+const server = https.createServer(app)
+
+const io = socket(server)
+
+io.on
